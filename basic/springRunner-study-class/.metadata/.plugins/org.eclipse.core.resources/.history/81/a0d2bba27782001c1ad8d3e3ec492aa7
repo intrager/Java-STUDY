@@ -1,0 +1,5 @@
+package moviebuddy.domain;
+
+public class CsvMovieFinder extends MovieFinder {
+	
+}
