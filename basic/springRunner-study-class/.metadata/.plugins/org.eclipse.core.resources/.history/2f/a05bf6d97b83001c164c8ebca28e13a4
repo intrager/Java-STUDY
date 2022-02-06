@@ -1,5 +1,0 @@
-package moviebuddy.domain;
-
-public class JaxbMovieReader {
-
-}
