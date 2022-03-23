@@ -10,7 +10,10 @@ public class Main {
         while(n > 0) {
             cnt++;
             n = n - cnt;
-            if(n%cnt==0) answer++;
+            if(n%cnt==0) {
+                System.out.println(n + " " + cnt);
+                answer++;
+            }
         }
 
         return answer;
