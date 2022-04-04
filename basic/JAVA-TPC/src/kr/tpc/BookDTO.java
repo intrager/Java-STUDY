@@ -8,7 +8,13 @@ public class BookDTO {
 	// 디폴트 생성자 메서드(생략)
 	public BookDTO() {	// 객체를 생성하는 작업함(기계어 코드) 
 		// 객체 생성 : 생성자 매서드 안에서 하는, 기억공간에 만드는 작업
-		// super(); -> 원래는 자동으로 있음
-		
+		// super(); -> 원래는 자동으로 있음	
 	}
+	public BookDTO(String title, int price, String company, int page) {
+		this.title = title;
+		this.price = price;
+		this.company = company;
+		this.page = page;
+	}
+	
 }
