@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     // n = 45 기준 첫 번째에 비해 두 번째는 10배정도 빨라짐.
-    // 세 번째에서는 거의 1초만에 나옴 (세 번째 : Memoization)
+    // 세 번째에서는 거의 1초만에 나옴 (세 번째 : Memoization) // 스택 프레임
     static int[] fibo;
     public int depthFirstSearch(int n) {
         if(fibo[n] > 0) return fibo[n];
