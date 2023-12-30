@@ -11,7 +11,7 @@ import javax.swing.JTextField;
 public class Project01_F {
 	JTextField address;
 	JLabel resAddress, resX, resY, jibunAddress, imageLabel;
-		
+	
 	public void initGUI() {
 		JFrame mapView = new JFrame("Map View");
 		mapView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
